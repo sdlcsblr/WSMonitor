@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            Toast.makeText(MainActivity.this, "You are not connected to Internet WS Senor Exiting...", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "You are not connected to Internet WS Monitor Exiting...", Toast.LENGTH_LONG).show();
             //SystemClock.sleep(3000);
             finish();
             moveTaskToBack(true);
