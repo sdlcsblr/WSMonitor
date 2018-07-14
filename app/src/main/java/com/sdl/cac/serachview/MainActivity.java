@@ -97,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
         StrictMode.setThreadPolicy(policy);
 
 
-       icon = new int[]{R.drawable.sdla, R.drawable.onpremise, R.drawable.aws,R.drawable.other};
-       temp = new int[]{R.drawable.sdla};
+       icon = new int[]{R.drawable.hosted, R.drawable.onpremise, R.drawable.aws,R.drawable.other};
+       temp = new int[]{R.drawable.hosted};
 
 
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
